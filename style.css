@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.top {
+    background-color: #ffffff;
+    padding: 1rem 10%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky; /* page*/
+    top: 0;
+    z-index: 100;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2c3e50;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    color: #3498db; 
+    border-bottom: 2px solid #3498db;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 10%;
+    min-height: 90vh;
+}
+
+.about-me {
+    font-size: 3.5rem; 
+    font-weight: 800;
+    color: #2c3e50;
+    max-width: 500px;
+}
+
+.profile-pic {
+    width: 320px;
+    height: 320px;
+    border: 8px solid #336582; 
+    border-radius: 50%; 
+    background-image: url('images/7.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .about-me {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+    .nav {
+        display: none; /
+    }
+}
+*{         class= "kapil"
+
+
+}
